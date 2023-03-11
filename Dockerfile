@@ -1,6 +1,6 @@
 FROM xiaoyaliu/alist:latest
 
-WORKDIR /etc/xiaoya/
+WORKDIR /data/
 
 RUN echo $token > token.txt \
   && echo $token
